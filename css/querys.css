@@ -1,16 +1,77 @@
 @media (min-width: 1200px){
 
 }
-@media (min-width: 768px) and (max-width: 979px){
-	.bg-header{
-		width: 113%;
+
+
+@media (min-width: 992px){
+	.row.circles{
+		margin-left: 0;
+		margin-top: 93px;
 	}
+	.team{
+		padding-left: 0;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 979px){
 	img#logo{
 		margin-right: 101px;
 	}
+	.bg-header{
+		margin-bottom: -585px;
+	}
+	.rombo{
+		width: 125px;
+    	height: 125px;
+	}
+	.cuadrado{
+		width: 140px;
+        height: 140px;
+        margin-top: -129px;
+    	margin-left: -7px;
+	}
+	.team{
+		padding-left: 63px;
+	}
 }
 @media (max-width: 767px){
-
+	.row.circles {
+    	margin-left: 142px;
+	}
+	/*.circulo{
+		margin-top: 22px;
+	}*/
+	img#logo{
+		margin-top: 15px;
+    	margin-bottom: 15px;
+	}
+	.bg-header{
+		margin-bottom: -593px;
+	}
+	#logocono{
+		margin-top: -22px;
+	}
 }
 @media (max-width: 480px){
+	.bg-header{
+		margin-bottom: -525px;
+		height: 1126px;
+	}
+	/*.circulo{
+		width: 100px;
+	    height: 100px;
+	    margin-top: 41px;
+	}*/
+	.row.circles {
+	    margin-left: 53px;
+	    margin-top: -25px;
+	}
+	#logocono {
+	    width: 50%;
+	    margin-top: -53px;
+	}
+	#p-conocenos{
+		font-size: x-large;
+	}
 }

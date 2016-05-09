@@ -7,6 +7,9 @@
 .text-white{
   color: white;
 }
+.turquesa{
+  
+}
 .font-large{
   font-size: -webkit-xxx-large;
 }
@@ -14,6 +17,11 @@
     color: #954C94;
 }
 img#logo {
+    width: 50%;
+    margin-top: 52px;
+    margin-bottom: 13px;
+}
+#logocono{
     width: 50%;
     margin-top: -22px;
 }
@@ -26,6 +34,9 @@ img#logo {
      border-radius: 50%;
      background: #9f5092;
      margin-top: 60px;
+}
+.row.circles {
+    margin-top: 42px;
 }
 .bg-header{
    background-image: url(../img/header.png);
@@ -59,11 +70,6 @@ button#morado {
     padding-bottom: 12px;
     margin-top: 13px;
 }
-.bg-ciclismo{
-  background-image: url(img/foto-14.jpg); 
-  background-size: cover;
-  height: auto;
-}
 
 
 blockquote {s
@@ -86,13 +92,13 @@ blockquote p {
     vertical-align: top;
 }
 .bg-footer{
-    background-image: url(../img/footer.png);
+   /* background-image: url(../img/footer.png);*/
 }
 /*NUESTRO EQUIPO*/
 .team {
     width: 100%;
     height: 500px;
-    background-color: rgb(8, 199, 205);
+    background-color: rgba(8, 199, 205, 0.63);
     padding-top: 158px;
     padding-left: 117px;s
 }
@@ -100,7 +106,8 @@ blockquote p {
 .rombo {
     width: 150px;
     height: 150px;
-    background: #91DC5A;
+   /* background: #91DC5A;*/
+    background: #428BCA;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -116,6 +123,7 @@ blockquote p {
     margin-top: -155px;
     margin-left: -5px;
 }
+
 .relative{
   position: relative;
 }
@@ -123,17 +131,90 @@ blockquote p {
       margin-top: -106px;
     margin-bottom: 62px;
 }
-/*img.piedrasol {
-    width: 71%;
-    margin-left: 22px;
-    margin-top: 25px;
-}*/
+
 
 /*CASA BICITEKA*/
 .casab {
-    background-color: olive;
-    height: 300px;
+      background-image: url(../img/casabici.jpg);
+    background-blend-mode: color;
+    height: 390px;
+    width: 100%;
+    background-color: rgba(245, 245, 245, 0.48);
+    padding-top: 70px;
 }
 .casa-info {
-    padding: 41px;
+    padding: 37px;
     border: 4px solid white;
+    width: 399px;
+    margin-left: 83px;
+}
+#btn-casa{
+    margin-top: 32px;
+}
+section#casa-biciteka {
+    margin-top: 40px;
+}
+/*BLOG*/
+section#blog {
+    background-color: #eee;
+    padding-bottom: 45px;
+}
+.cont-blog {
+    background-color: white;
+    padding: 10px;
+}
+/*Circulo*/
+.circulo {
+    width: 65px;
+    height: 65px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #0CCAD1;
+    margin-top: -32px;
+    padding-top: 20px;
+}
+
+/*CICLISMO URBANO*/
+section#ciclismo-urbano {
+    background-color: rgb(40, 176, 168);
+    padding-top: 59px;
+}
+.bg-ciclismo {
+    background-image: url(../img/foto-14.jpg);
+    background-size: cover;
+    background-color: antiquewhite;
+    background-blend-mode: hard-light;
+    height: 432px;
+    width: 100%;
+    padding: 93px;
+}
+.ciclismo-info {
+    background-color: rgba(216, 238, 221, 0.85);
+    padding: 42px;
+    height: 339px;
+    width: 440px;
+    margin-left: -29px;
+    margin-top: -46px;
+    border: 2px solid white;
+}
+/*PARTICIPA*/
+#participa {
+    background-image: url(../img/bici3.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(60, 118, 61, 0.47);
+    background-blend-mode: soft-light;
+}
+.cont-participa {
+    color: white;
+    padding: 161px;
+}
+/*CONTACTO*/
+.form-style{
+    border: 3px solid turquoise;
+    padding: 19px;
+}

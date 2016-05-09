@@ -7,6 +7,12 @@
 .text-white{
   color: white;
 }
+.font-large{
+  font-size: -webkit-xxx-large;
+}
+.color-954C94{
+    color: #954C94;
+}
 img#logo {
     width: 50%;
 }
@@ -21,22 +27,25 @@ img#logo {
      margin-top: 60px;
 }
 .bg-header{
-    background-image: url(../img/header.png);
+   background-image: url(../img/header.png);
     width: 100%;
-    background-position: bottom;
+    height: 1307px;
     background-size: contain;
+    background-blend-mode: color;
+    background-position: center;
     background-repeat: no-repeat;
-    height: 726px;
+    margin-bottom: -544px;
 }
 
-
-.bg-gif{
-    background-image: url(../img/mexcity.gif);
+/*SECCIÓN CONÓCENOS*/
+.bg-conocenos{
+    background-image: url(../img/bicitekas.png);
     width: 100%;
     height: 600px;
     background-size: cover;
-    background-color: rgba(16, 16, 16, 0.72);
     background-blend-mode: color;
+    background-color: rgba(245, 245, 245, 0.6);
+    background-position: bottom;
 }
 button#verde {
     background-color: #28b145;
@@ -45,8 +54,9 @@ button#morado {
     background-color: #871c6e;
 }
 .botones {
-    padding-top: 16px;
-    margin-top: 450px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    margin-top: 13px;
 }
 .bg-ciclismo{
   background-image: url(img/foto-14.jpg); 
@@ -77,30 +87,52 @@ blockquote p {
 .bg-footer{
     background-image: url(../img/footer.png);
 }
+/*NUESTRO EQUIPO*/
+.team {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(8, 199, 205);
+    padding-top: 158px;
+    padding-left: 117px;s
+}
+/*Rombo*/
+.rombo {
+    width: 150px;
+    height: 150px;
+    background: #91DC5A;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border: 2px solid black;
+}
+/*Cuadrado*/
+.cuadrado {
+    width: 164px;
+    height: 164px;
+    background: #FFFFFF;
+    margin-top: -155px;
+    margin-left: -5px;
+}
+.relative{
+  position: relative;
+}
+#team{
+      margin-top: -106px;
+    margin-bottom: 62px;
+}
+/*img.piedrasol {
+    width: 71%;
+    margin-left: 22px;
+    margin-top: 25px;
+}*/
 
-/* Removes the default 20px margin and creates some padding space for the indicators and controls */
-.carousel {
-    margin-bottom: 0;
-    padding: 0 40px 30px 40px;
+/*CASA BICITEKA*/
+.casab {
+    background-color: olive;
+    height: 300px;
 }
-/* Reposition the controls slightly */
-.carousel-control {
-    left: -12px;
-}
-.carousel-control.right {
-    right: -12px;
-}
-/* Changes the position of the indicators */
-.carousel-indicators {
-    right: 50%;
-    top: auto;
-    bottom: 0px;
-    margin-right: -19px;
-}
-/* Changes the colour of the indicators */
-.carousel-indicators li {
-    background: #c0c0c0;
-}
-.carousel-indicators .active {
-background: #333333;
-}
+.casa-info {
+    padding: 41px;
+    border: 4px solid white;
